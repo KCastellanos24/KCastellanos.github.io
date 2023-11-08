@@ -34,4 +34,13 @@ html, body {
     table.second thead tr:first-child{     
         border-bottom: 2px solid purple;
     }
-    
+table.third {
+    Vertical-align top: middle;
+}    
+table.third tr:first-child{
+    border-top: 2px solid orangered
+}
+table.third tr:last-child{
+    border-top: 2px solid orangered
+}
+
