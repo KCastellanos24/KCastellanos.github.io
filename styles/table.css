@@ -37,13 +37,16 @@ html, body {
 table.third {
     Vertical-align:top;
 }    
-table.third tr:first-child,tr:nth-child(...), tr:last-child {
+table.third tr:first-child,tr:nth-child(), tr:last-child {
     border-top: 2px solid orangered
 }
 table.third tr:last-child{
     border-top: 2px solid orangered
 }
-@media query (max-width:425px)
+media query{
+    max-width: 425px;
+}
+
 @media only screen and (max-width: 425px) {
     th, td {
         display: block;
