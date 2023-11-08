@@ -35,9 +35,9 @@ html, body {
         border-bottom: 2px solid purple;
     }
 table.third {
-    Vertical-align top: middle;
+    Vertical-align:top;
 }    
-table.third tr:first-child{
+table.third tr:first-child,tr:nth-child(...), tr:last-child {
     border-top: 2px solid orangered
 }
 table.third tr:last-child{
