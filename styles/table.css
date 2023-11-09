@@ -35,14 +35,11 @@ html, body {
         border-bottom: 2px solid purple;
     }
      /*-----------------------------------------------------------*/
-table.third {
+table.third thead tr:first-child tr:last-child {
     border-collapse: collapse;
     border-top: 2px solid orangered;
 }
-thead tr:first-child {
-    border-top: 2px solid orangered;
-}
-table.third tr {
+table.third tr:nth-child(odd) {
     vertical-align: top;
     border-bottom: 2px solid orangered;
 }
