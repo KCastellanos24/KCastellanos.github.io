@@ -35,19 +35,16 @@ html, body {
         border-bottom: 2px solid purple;
     }
      /*-----------------------------------------------------------*/
-     /* Apply styles for TABLE 3: IT Jobs and Salary row */
 table.third thead tr:first-child {
     border-collapse: collapse;
     border-top: 2px solid orangered;
 }
 
-/* Apply styles to align numbers at the top and display borders for the first and last rows */
 table.third tr {
     vertical-align: top;
     border-bottom: 2px solid orangered;
 }
 
-/* Hide number column and adjust padding for mobile devices */
 @media only screen and (max-width: 425px) {
     th, td {
         display: block;
