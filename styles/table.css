@@ -39,6 +39,9 @@ table.third thead tr:first-child tr:last-child {
     border-collapse: collapse;
     border-top: 2px solid orangered;
 }
+table.third thead{
+    background-color: pink;
+}
 table.third tr:nth-child(odd) {
     vertical-align: top;
     border-bottom: 2px solid orangered;
