@@ -35,12 +35,24 @@ html, body {
         border-bottom: 2px solid purple;
     }
      /*-----------------------------------------------------------*/
-table.third thead  {
-    vertical-align: top;
+table.third {
     border-collapse: collapse;
     border-top: 2px solid orangered;
-    background-color:pink;
+    border-bottom: 2px solid orangered;
+    caption-side: top
 }
+table.third th {
+    background-color: pink;
+    border-bottom: 2px solid orangered;
+}
+table.third th, table.third td {
+    padding: .5em;
+    vertical-align: top;
+}
+table.third thead tr:first-child {
+    border-bottom: 2px solid pink;
+}
+/*-----------------------------------------------------------*/
 @media only screen and (max-width: 425px) {
     th, td {
         display: block;
