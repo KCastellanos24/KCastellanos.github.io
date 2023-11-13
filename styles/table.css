@@ -48,7 +48,6 @@ table.third th {
 table.third caption {
     background-color: pink;
     border-top: orangered;
-    border-collapse: collapse;
 }
 table.third th, table.third td {
     padding: .5em;
