@@ -43,6 +43,7 @@ table.third {
 }
 table.third th, caption {
     background-color: pink;
+    border-top: orangered;
     border-bottom: 2px solid orangered;
 }
 table.third th, table.third td {
