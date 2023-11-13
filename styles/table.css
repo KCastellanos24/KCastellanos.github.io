@@ -41,10 +41,13 @@ table.third {
     border-bottom: 2px solid orangered;
     caption-side: top
 }
-table.third th, table.third caption {
+table.third th {
+    background-color: pink;
+    border-bottom: 2px solid orangered;
+}
+table.third caption {
     background-color: pink;
     border-top: orangered;
-    border-bottom: 2px solid orangered;
 }
 table.third th, table.third td {
     padding: .5em;
